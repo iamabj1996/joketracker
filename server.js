@@ -3,9 +3,9 @@ const cors = require("cors");
 const connectDB = require("./config/db");
 const path = require("path");
 
-app.use(cors());
-
 const app = express();
+
+app.use(cors());
 
 connectDB();
 
